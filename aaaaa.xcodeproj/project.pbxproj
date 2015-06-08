@@ -10,7 +10,6 @@
 		22646E461B15C08B00C8FB29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22646E451B15C08B00C8FB29 /* main.m */; };
 		22646E491B15C08B00C8FB29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22646E481B15C08B00C8FB29 /* AppDelegate.m */; };
 		22646E4C1B15C08B00C8FB29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22646E4B1B15C08B00C8FB29 /* ViewController.m */; };
-		22646E4F1B15C08B00C8FB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22646E4D1B15C08B00C8FB29 /* Main.storyboard */; };
 		22646E511B15C08B00C8FB29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22646E501B15C08B00C8FB29 /* Images.xcassets */; };
 		22646E541B15C08B00C8FB29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22646E521B15C08B00C8FB29 /* LaunchScreen.xib */; };
 		22646E601B15C08B00C8FB29 /* aaaaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22646E5F1B15C08B00C8FB29 /* aaaaaTests.m */; };
@@ -34,7 +33,6 @@
 		22646E481B15C08B00C8FB29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		22646E4A1B15C08B00C8FB29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		22646E4B1B15C08B00C8FB29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		22646E4E1B15C08B00C8FB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22646E501B15C08B00C8FB29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22646E531B15C08B00C8FB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		22646E591B15C08B00C8FB29 /* aaaaaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaaaaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				22646E481B15C08B00C8FB29 /* AppDelegate.m */,
 				22646E4A1B15C08B00C8FB29 /* ViewController.h */,
 				22646E4B1B15C08B00C8FB29 /* ViewController.m */,
-				22646E4D1B15C08B00C8FB29 /* Main.storyboard */,
 				22646E501B15C08B00C8FB29 /* Images.xcassets */,
 				22646E521B15C08B00C8FB29 /* LaunchScreen.xib */,
 				22646E431B15C08B00C8FB29 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22646E4F1B15C08B00C8FB29 /* Main.storyboard in Resources */,
 				22646E541B15C08B00C8FB29 /* LaunchScreen.xib in Resources */,
 				22646E511B15C08B00C8FB29 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22646E4D1B15C08B00C8FB29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22646E4E1B15C08B00C8FB29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22646E521B15C08B00C8FB29 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
